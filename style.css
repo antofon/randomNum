@@ -60,3 +60,16 @@ h1 {
         margin-top: 140px;
     }
 }
+
+@media (orientation: landscape) {
+    #main-content {
+        margin-top: 40px;
+    }
+    #main-content p {
+        font-size: 5em;
+    }
+    #main-content button {
+        font-size: 1.4em;
+        margin-top: 50px;
+    }
+}
