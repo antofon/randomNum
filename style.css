@@ -23,13 +23,13 @@ h1 {
 
 #main-content p {
     font-family: Verdana, Arial, Helvetica;
-    font-size: 8em;
+    font-size: 5em;
     color: #FDFFFC;
 }
 
 #main-content button {
     font-family: Verdana, Arial, Helvetica;
-    font-size: 1.7em;
+    font-size: 1.4em;
     background-color: #246EB9;
     color: #FDFFFC;
     border: 2px solid #FDFFFC;
@@ -43,4 +43,20 @@ h1 {
     background-color: #FDFFFC;
     color: #246EB9;
     border: 2px solid #FDFFFC;
+}
+
+
+/* === Media Queries === */
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+    #main-content p {
+        font-size: 6em;
+    }
+    #main-content button {
+        font-size: 1.6em;
+        margin-top: 140px;
+    }
 }
